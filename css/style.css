@@ -1,0 +1,602 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  background-color: #ffff;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*----header----*/
+header {
+  width: 100vw;
+}
+
+header .logo img {
+  width: 220px;
+  margin-left: 130px;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header_btn {
+  display: flex;
+  gap: 40px 20px;
+  margin-right: 130px;
+}
+
+.mail_icon img {
+  margin-right: 10px;
+}
+
+.mail_icon a {
+  display: flex;
+  font-size: 20px;
+  border: #e5677f solid 1px;
+  border-radius: 10px;
+  padding: 15px 40px;
+  color: #e5677f;
+}
+
+.mail_icon a p {
+  letter-spacing: 3px;
+}
+
+.free_icon a p {
+  letter-spacing: 3px;
+}
+
+.mail_icon a:hover {
+  pointer-events: painted;
+}
+
+.free_icon img {
+  margin-right: 10px;
+}
+
+.free_icon a {
+  display: flex;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 14px 65px;
+  color: #7eaf88;
+  border: #7eaf88 solid 1px;
+}
+
+/*----mainvisual----*/
+
+#mainvisual {
+  background-image: url(../img/mainvisual.png);
+  background-size: cover;
+  background-position: center;
+  height: 103vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainvisual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mainvisual_btn_green {
+  margin-top: 10px;
+}
+
+
+.mainvisual_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 570px;
+}
+
+.mainvisual_btn_pink img {
+  background-size: cover;
+
+}
+
+
+.mainvisual_btn_green img {
+  width: 500px;
+}
+
+.mainvisual_btn_pink img {
+  width: 500px;
+}
+
+/*----worries----*/
+
+
+
+
+#worries {
+  width: 100%;
+  aspect-ratio: 1200 / 631;
+  background-image: url(../img/section_w.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*----change----*/
+
+#change {
+  background-image: url(../img/section2-1.png);
+  width: 100%;
+  aspect-ratio: 1200 / 421;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/*----regret----*/
+#regret {
+  background-image: url(../img/regret.png);
+  width: 100%;
+  aspect-ratio: 1200 / 400;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/*----smallーchange----*/
+#small-change {
+  background-image: url(../img/small-change.png);
+  width: 100%;
+  aspect-ratio: 1200 / 776;
+  background-size: cover;
+  background-position: center;
+}
+
+/*----Watching over----*/
+#Watching-over {
+  background-image: url(../img/Watching-over.png);
+  width: 100%;
+  aspect-ratio: 1200 / 547;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/*----about----*/
+#about {
+  background-image: url(../img/about.png);
+  width: 100%;
+  aspect-ratio: 1200 / 394;
+  background-size: cover;
+  background-position: center;
+}
+
+/*----list----*/
+#list {
+  background-image: url(../img/list.png);
+  width: 100%;
+  aspect-ratio: 1210 / 371;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*----bind----*/
+#bind {
+  background-image: url(../img/bind1.png);
+  width: 100%;
+  aspect-ratio: 1200 / 661;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/*----reason----*/
+
+#reason {
+  background-image: url(../img/reason.png);
+  width: 100%;
+  aspect-ratio: 1200 / 302;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+/*----recommendation----*/
+#recommendation {
+  background-image: url(../img/recommendation1.png);
+  width: 100%;
+  aspect-ratio: 1200 / 646;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/*----support----*/
+#support {
+  background-image: url(../img/support.png);
+  width: 100%;
+  aspect-ratio: 1200 / 532;
+  background-size: cover;
+  background-position: center;
+  margin-top: -2px;
+}
+
+
+/*----Button-area-a----*/
+#Button-area-a {
+  background-image: url(../img/Button-area-a.png);
+  width: 100%;
+  aspect-ratio: 1200 / 374;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+/*----start----*/
+
+#start {
+  background-image: url(../img/start.png);
+  width: 100%;
+  aspect-ratio: 1200 / 462;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+/*---feelings----*/
+
+#feelings {
+  background-image: url(../img/feelings-b.png);
+  aspect-ratio: 1200 / 806;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+.apply_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 230px;
+}
+
+.apply_btn_pink img {
+  background-size: cover;
+
+}
+
+
+.apply_btn_green img {
+  width: 500px;
+}
+
+.apply_btn_pink img {
+  width: 500px;
+}
+
+.apply_btn_green {
+  margin-top: 10px;
+}
+
+
+
+/*----question----*/
+
+#question {
+  background-image: url(../img/question.png);
+  aspect-ratio: 1200 / 716;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+#question-second {
+  background-image: url(../img/question-second.png);
+  aspect-ratio: 1200 / 837;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateX(-2px);
+
+}
+
+
+
+
+
+
+#question-btn {
+  background-image: url(../img/think.png.png);
+  aspect-ratio: 1200 / 564;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.question_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+.question_btn_pink img {
+  background-size: cover;
+
+}
+
+
+.question_btn_green img {
+  width: 500px;
+}
+
+.question_btn_pink img {
+  width: 500px;
+}
+
+.question_btn_green {
+  margin-top: 10px;
+}
+
+.reservation-btn {
+  width: 500px;
+  height: 95px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 30px;
+
+  background: linear-gradient(to bottom,
+      #ff8298 0%,
+      #f2637d 50%,
+      #e94b69 100%);
+
+  border-radius: 60px;
+
+  color: #fff;
+  text-decoration: none;
+
+  box-shadow: inset 0 4px 8px rgba(255, 255, 255, 0.3), 5px 8px 15px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+
+}
+
+
+
+/*---campaign----*/
+
+#campaign {
+  background-image: url(../img/campaign.png);
+  aspect-ratio: 1200 / 540;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 左のアイコン */
+
+.reservation-icon {
+  width: 50px;
+
+  font-size: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+
+
+/* 中央の文字 */
+
+.reservation-text {
+  flex: 1;
+
+  text-align: center;
+
+  font-size: 29px;
+  letter-spacing: 1px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+
+/* 右側の矢印 */
+
+.reservation-arrow {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  color: #ed617c;
+
+  border-radius: 50%;
+
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+
+  background: linear-gradient(145deg,
+      #ffffff 0%,
+      #f5f5f5 45%,
+      #e2e2e2 100%);
+
+  box-shadow:
+    inset 2px 2px 4px rgba(0, 0, 0, 0.12),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9);
+}
+
+.reservation-arrow-box {
+  margin-bottom: 4px;
+}
+
+.phone-btn {
+  width: 520px;
+  height: 95px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 30px;
+
+  /* 緑のグラデーション */
+  background: linear-gradient(to bottom, #7ab78a 0%, #75b987 45%, #4f8a5e 100%);
+  border-radius: 60px;
+
+  color: #fff;
+  text-decoration: none;
+
+  box-sizing: border-box;
+
+  /* 画像のような柔らかい立体感 */
+  box-shadow:
+    inset 0 4px 8px rgba(255, 255, 255, 0.3),
+    5px 8px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.reservation-btn img {
+  width: 50px;
+  height: 50px;
+}
+
+/* 電話アイコン */
+
+.phone-icon {
+  width: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 38px;
+  color: #fff;
+}
+
+
+/* 文字 */
+
+.phone-text {
+  flex: 1;
+
+  text-align: center;
+
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+
+/* 右側の丸い矢印 */
+
+.phone-arrow {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  /* 少し窪んだ白丸 */
+  background: linear-gradient(145deg,
+      #ffffff,
+      #e8e8e8);
+
+  color: #72b183;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  line-height: 1;
+
+  box-shadow:
+    inset 2px 2px 4px rgba(0, 0, 0, 0.12),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9);
+}
+
+.phone-icon img {
+  width: 82%;
+}
+
+
+
+.phone-arrow-box {
+  margin-bottom: 6px;
+}
+
+button {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
