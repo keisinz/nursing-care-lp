@@ -71,6 +71,7 @@ header .header {
 
 .free_icon a p {
   letter-spacing: 3px;
+  margin-top: 4px;
 }
 
 .mail_icon a:hover {
@@ -85,7 +86,7 @@ header .header {
   display: flex;
   font-size: 20px;
   border-radius: 10px;
-  padding: 14px 65px;
+  padding: 13px 65px;
   color: #7eaf88;
   border: #7eaf88 solid 1px;
 }
@@ -610,6 +611,15 @@ button {
     margin-left: 0;
   }
 
+  .free_icon img {
+    margin-right: 10px;
+    width: 53%;
+  }
+
+  .mail_icon img {
+    width: 29%;
+  }
+
   .question_btn {
     margin-bottom: 384px;
   }
@@ -618,27 +628,33 @@ button {
   .mail_icon a {
     display: block;
     text-align: center;
-    padding: 20px 34px;
+    padding: 12px 21px;
     border-radius: 24px;
+    border: #e5677f solid 2px;
+    font-size: 26px;
   }
 
   .mail_icon a p {
     writing-mode: horizontal-tb;
     white-space: nowrap;
+    font-weight: bold;
   }
 
   .free_icon a {
     display: block;
     text-align: center;
-    padding: 17px 57px;
+    padding: 7px 52px;
     border-radius: 24px;
-
-
+    border: #7eaf88 solid 2px;
+    margin-top: 0;
   }
 
   .free_icon a p {
     writing-mode: horizontal-tb;
     white-space: nowrap;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
 
   }
 
@@ -809,7 +825,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    margin-bottom: 61px;
+    margin-bottom: 124px;
 
   }
 
@@ -893,7 +909,7 @@ button {
 
 
   header .logo img {
-    width: 77%;
+    width: 88%;
     margin-left: 0;
   }
 
@@ -902,25 +918,35 @@ button {
   }
 
 
+  .mail_icon img {
+    width: 25%;
+  }
+
+
   .mail_icon a {
     display: block;
     text-align: center;
-    padding: 8px 16px;
+    padding: 11px 7px;
     border-radius: 24px;
   }
 
   .mail_icon a p {
     writing-mode: horizontal-tb;
     white-space: nowrap;
+    font-size: 23px;
   }
 
   .free_icon a {
     display: block;
     text-align: center;
-    padding: 6px 37px;
+    padding: 3px 31px;
     border-radius: 24px;
 
 
+  }
+
+  .free_icon img {
+    width: 45%;
   }
 
   .free_icon a p {
@@ -1158,12 +1184,16 @@ button {
     margin-left: 0;
   }
 
+  .free_icon img {
+    width: 41%;
+  }
+
 
 
   .mail_icon a {
     display: block;
     text-align: center;
-    padding: 8px 16px;
+    padding: 8px 5px;
     border-radius: 24px;
   }
 
@@ -1175,11 +1205,11 @@ button {
   .free_icon a {
     display: block;
     text-align: center;
-    padding: 6px 37px;
     border-radius: 24px;
-
-
+    padding: 2px 25px;
   }
+
+
 
   .free_icon a p {
     writing-mode: horizontal-tb;
@@ -1406,11 +1436,13 @@ button {
   }
 
 
+
+
+
+
+
+
 }
-
-
-
-
 
 
 
@@ -1531,7 +1563,7 @@ button {
   /*----about---*/
   #about {
     background-image: url(../img/about-rwd.png);
-    aspect-ratio: 750 / 708;
+    aspect-ratio: 750 /760;
   }
 
   /*----list----*/
@@ -1569,7 +1601,7 @@ button {
 
   #reason {
     background-image: url(../img/reason-rwd.png);
-    aspect-ratio: 750 / 1135;
+    aspect-ratio: 750 / 1217;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1579,7 +1611,7 @@ button {
   /*----recommendation----*/
   #recommendation {
     background-image: url(../img/recommendation-rwd.png);
-    aspect-ratio: 750 / 970;
+    aspect-ratio: 750 / 1116;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1590,7 +1622,7 @@ button {
   /*----recommendation----*/
   #Button-area-a {
     background-image: url(../img/Button-area-a-rwd.png);
-    aspect-ratio: 750 / 851;
+    aspect-ratio: 750 / 920;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1608,7 +1640,7 @@ button {
   /*----recommendation----*/
   #support {
     background-image: url(../img/support-rwd.png);
-    aspect-ratio: 750 / 1072;
+    aspect-ratio: 750 /1210;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1618,7 +1650,7 @@ button {
 
   #start {
     background-image: url(../img/start-rwd.png);
-    aspect-ratio: 750 / 1319;
+    aspect-ratio: 750 / 1400;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1627,7 +1659,7 @@ button {
   /*----feelings----*/
   #feelings {
     background-image: url(../img/feelings-rwd.png);
-    aspect-ratio: 750 / 2199;
+    aspect-ratio: 750 / 3094;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1636,7 +1668,7 @@ button {
   /*----question----*/
   #question {
     background-image: url(../img/question-rwd.png);
-    aspect-ratio: 750 / 2776;
+    aspect-ratio: 750 / 2844;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1650,7 +1682,7 @@ button {
 
   #question-btn {
     background-image: url(../img/question-btn-rwd.png);
-    aspect-ratio: 750 / 1138;
+    aspect-ratio: 750 / 1150;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1724,7 +1756,7 @@ button {
   }
 
   .apply_btn {
-    margin-bottom: 29px;
+    margin-bottom: 52px;
     gap: 8px;
   }
 
@@ -1735,7 +1767,7 @@ button {
 
 
   .free_icon a {
-    padding: 0px 16px;
+    padding: 5px 18px;
     border-radius: 13px;
   }
 
@@ -1745,25 +1777,25 @@ button {
   }
 
   .free_icon a p {
-    font-size: 10px;
+    font-size: 11px;
   }
 
 
 
   .mail_icon a {
-    padding: 1px 5px;
+    padding: 0px 5px;
     border-radius: 13px;
 
   }
 
   .mail_icon a p {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .mail_icon img {
 
     margin-right: 0px;
-    width: 20px;
+    width: 27%;
   }
 
   .header_btn {
@@ -1777,108 +1809,11 @@ button {
 }
 
 
-@media screen and (max-width: 402px) {
-  .reservation-arrow {
-    width: 23px;
-    height: 21px;
+@media screen and (max-width: 404px) {
+
+  .mail_icon {
+    height: 30px;
   }
-
-  .reservation-btn {
-    width: 345px;
-    height: 60px;
-    padding: 0 22px;
-  }
-
-  .reservation-text {
-    font-size: 21px;
-  }
-
-  .reservation-btn img {
-    width: 40px;
-    height: 39px;
-  }
-
-  .phone-btn {
-    width: 345px;
-    height: 60px;
-    padding: 0 21px;
-  }
-
-  .phone-text {
-    font-size: 16px;
-
-  }
-
-  .mainvisual_btn {
-    margin-bottom: 13px;
-    gap: 9px;
-  }
-
-  .phone-icon img {
-    width: 56%;
-  }
-
-  .phone-arrow {
-    width: 23px;
-    height: 22px;
-  }
-
-  .apply_btn {
-    margin-bottom: 19px;
-    gap: 8px;
-  }
-
-  .question_btn {
-    margin-bottom: 168px;
-    gap: 8px;
-  }
-
-
-  .free_icon a {
-    padding: 0px 16px;
-    border-radius: 13px;
-  }
-
-  .free_icon img {
-    margin-right: 0px;
-    width: 23px;
-  }
-
-  .free_icon a p {
-    font-size: 10px;
-  }
-
-
-
-  .mail_icon a {
-    padding: 1px 5px;
-    border-radius: 13px;
-
-  }
-
-  .mail_icon a p {
-    font-size: 10px;
-  }
-
-  .mail_icon img {
-
-    margin-right: 0px;
-    width: 20px;
-  }
-
-  .header_btn {
-    margin-right: 7px;
-    gap: 7px;
-  }
-
-  header .logo img {
-    width: 87%;
-  }
-}
-
-
-
-@media screen and (max-width: 375px) {
 
   .reservation-arrow {
     width: 23px;
@@ -1926,19 +1861,20 @@ button {
   }
 
   .apply_btn {
-    margin-bottom: 10px;
+    margin-bottom: 47px;
     gap: 8px;
   }
 
   .question_btn {
-    margin-bottom: 154px;
+    margin-bottom: 175px;
     gap: 8px;
   }
 
 
   .free_icon a {
-    padding: 0px 16px;
+    padding: 3px 15px;
     border-radius: 13px;
+    font-size: 0;
   }
 
   .free_icon img {
@@ -1953,13 +1889,14 @@ button {
 
 
   .mail_icon a {
-    padding: 1px 5px;
+    padding: 5px 2px;
     border-radius: 13px;
-
+    font-size: 0;
   }
 
   .mail_icon a p {
     font-size: 10px;
+    margin-top: 3px;
   }
 
   .mail_icon img {
@@ -1974,6 +1911,222 @@ button {
   }
 
   header .logo img {
-    width: 96%;
+    width: 90%;
+  }
+}
+
+
+
+@media screen and (max-width: 390px) {
+
+  .mail_icon {
+    height: 30px;
+  }
+
+  .reservation-arrow {
+    width: 23px;
+    height: 21px;
+  }
+
+  .reservation-btn {
+    width: 327px;
+    height: 60px;
+    padding: 0 22px;
+  }
+
+  .reservation-text {
+    font-size: 16px;
+  }
+
+  .reservation-btn img {
+    width: 40px;
+    height: 39px;
+  }
+
+  .phone-btn {
+    width: 327px;
+    height: 60px;
+    padding: 0 21px;
+  }
+
+  .phone-text {
+    font-size: 14px;
+
+  }
+
+  .mainvisual_btn {
+    margin-bottom: 10px;
+    gap: 9px;
+  }
+
+  .phone-icon img {
+    width: 56%;
+  }
+
+  .phone-arrow {
+    width: 23px;
+    height: 22px;
+  }
+
+  .apply_btn {
+    margin-bottom: 45px;
+    gap: 8px;
+  }
+
+  .question_btn {
+    margin-bottom: 162px;
+    gap: 8px;
+  }
+
+
+  .free_icon a {
+    padding: 3px 15px;
+    border-radius: 13px;
+    font-size: 0;
+  }
+
+  .free_icon img {
+    margin-right: 0px;
+    width: 23px;
+  }
+
+  .free_icon a p {
+    font-size: 10px;
+  }
+
+
+
+  .mail_icon a {
+    padding: 5px 2px;
+    border-radius: 13px;
+    font-size: 0;
+  }
+
+  .mail_icon a p {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+  .mail_icon img {
+
+    margin-right: 0px;
+    width: 20px;
+  }
+
+  .header_btn {
+    margin-right: 7px;
+    gap: 7px;
+  }
+
+  header .logo img {
+    width: 90%;
+  }
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+  .mail_icon {
+    height: 30px;
+  }
+
+  .reservation-arrow {
+    width: 23px;
+    height: 21px;
+  }
+
+  .reservation-btn {
+    width: 327px;
+    height: 60px;
+    padding: 0 22px;
+  }
+
+  .reservation-text {
+    font-size: 16px;
+  }
+
+  .reservation-btn img {
+    width: 40px;
+    height: 39px;
+  }
+
+  .phone-btn {
+    width: 327px;
+    height: 60px;
+    padding: 0 21px;
+  }
+
+  .phone-text {
+    font-size: 14px;
+
+  }
+
+  .mainvisual_btn {
+    margin-bottom: 10px;
+    gap: 9px;
+  }
+
+  .phone-icon img {
+    width: 56%;
+  }
+
+  .phone-arrow {
+    width: 23px;
+    height: 22px;
+  }
+
+  .apply_btn {
+    margin-bottom: 40px;
+    gap: 8px;
+  }
+
+  .question_btn {
+    margin-bottom: 154px;
+    gap: 8px;
+  }
+
+
+  .free_icon a {
+    padding: 3px 15px;
+    border-radius: 13px;
+    font-size: 0;
+  }
+
+  .free_icon img {
+    margin-right: 0px;
+    width: 23px;
+  }
+
+  .free_icon a p {
+    font-size: 10px;
+  }
+
+
+
+  .mail_icon a {
+    padding: 5px 2px;
+    border-radius: 13px;
+    font-size: 0;
+  }
+
+  .mail_icon a p {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+  .mail_icon img {
+
+    margin-right: 0px;
+    width: 20px;
+  }
+
+  .header_btn {
+    margin-right: 7px;
+    gap: 7px;
+  }
+
+  header .logo img {
+    width: 90%;
   }
 }
